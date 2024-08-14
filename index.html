@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <h1>Chunchu Renuka Devi</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#about" onclick="showSection('about')">About</a></li>
+                        <li><a href="#education" onclick="showSection('education')">Education</a></li>
+                        <li><a href="#projects" onclick="showSection('projects')">Projects</a></li>
+                        <li><a href="#contact" onclick="showSection('contact')">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="about" class="container section">
+            <div class="content">
+                <h2>About Me</h2>
+                <p>I am a dedicated Computer Science and Engineering student with a strong passion for technology and innovation. My focus lies in web develpoment, where I am developing my skills through hands-on projects and continuous learning. I am eager to apply my knowledge to real-world challenges and contribute to the future of tech.</p>
+            </div>
+            <div class="image-right">
+                <img src="profile.jpg" alt="Your Profile Image">
+            </div>
+        </section>
+
+        <section id="education" class="container section">
+            <div class="content">
+                <h2>Education</h2>
+                <h3>Bachelors of Technology</h3> 
+                <p>Rajeev Gandhi Memorial College of Engineering and Technology • Nandyal</p>
+                <h3>Intermediate</h3>
+                <p>AP Residential Junior College • Yemmiganur</p>
+                <h3>SSC</h3>
+                <p>Viswashanthi High School  • Allagadda</p>
+            </div>
+        </section>
+
+        <section id="projects" class="container section">
+            <div class="content">
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3>Project 1</h3>
+                    <p>E-commerce Platform Development </p>
+                    <p>Technologies Used:Html,css</p>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </section>
+
+        <section id="contact" class="container section">
+            <div class="content">
+                <h2>Contact Me</h2>
+                <p>Email: <a href="mailto:renukadevi2904@gmail.com">renukadevi2904@gmail.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/renuka-devi-151332280">https://www.linkedin.com/in/renuka-devi-151332280 </a></p>
+                <!-- Add more contact options if necessary -->
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Renuka Devi. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
